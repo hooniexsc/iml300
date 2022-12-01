@@ -22,4 +22,89 @@ let posX4 = map(mouseX, 0, width, 1, -1);
 }
 
 
+//draggable//
+$(document).ready(function () {
+    $(function () {
+        $(".workout").draggable();
+    });   
+    
+      $(function () {
+        $(".meditation").draggable();
+    });   
+    
+      $(function () {
+        $(".art").draggable();
+    });   
+    
+      $(function () {
+        $(".cook").draggable();
+    });   
+    
+      $(function () {
+        $(".book").draggable();
+    });   
+    
+      $(function () {
+        $(".family").draggable();
+    });   
+    
+//draggable//    
+    
+    $('.meditation').click(function () {
+        $('.p1').toggle();
+    });
+    
+        $('.art').click(function () {
+        $('.p2').toggle();
+    });
+    
+           $('.cook').click(function () {
+        $('.p3').toggle();
+    });
+    
+    
+    
+           $('.book').click(function () {
+        $('.p4').toggle();
+    });
+    
+     
+           $('.family').click(function () {
+        $('.p5').toggle();
+    });
+    
+    
+    
+           $('.workout').click(function () {
+        $('.p6').toggle();
+    });
+//    
+//        $('#p1').click(function () {
+//        $('.pop-up').toggle();
+//    });
+
+//        $('.workout').hover(function () {
+//        $('.p2').fadeIn();
+//    }, function () {
+//        $('.p2').fadeOut();
+//    });
+    
+    
+//        $(".art").click(function () {
+//                $(".p1").toggle();
+//        $(".p2").toggle();
+//    });
+    
+       $('.red').click(function () {
+        $(this).toggleClass('open');
+        $('.menu').toggleClass('open');
+        $('.menu-bg').toggleClass('cover');
+    });
+    
+    
+    
+    
+    
+    
+});
 
