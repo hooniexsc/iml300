@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+body{
+    margin:50px;
+     text-align: center;
+         font-family: 'Kalam';
+    	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  display :grid;
+    color: black;
+  
+}
+
